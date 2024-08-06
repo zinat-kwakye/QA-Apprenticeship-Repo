@@ -1,0 +1,23 @@
+apiVersion: apps/v1     # apps is a group of resources used for deployments
+kind: Deployment
+metadata:
+  name: nginx
+  labels:
+    app: nginx     # this is label for the deployment object 
+spec:
+  replicas: 4     # number of pods/containers
+  selector:
+    matchLabels:
+      app: nginx
+  strategy:
+    rollingUpdate:     # this is the default dstrategy. Other is 'recreate'.
+      maxSurge: 25%      # max number of pods created above the desired number of replicas
+      maxUnavailable: 25%    # max number of pods that can be unavailable during an update
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:alpine
