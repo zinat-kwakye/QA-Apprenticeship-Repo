@@ -1,0 +1,24 @@
+2024-08-02 09:10:39.529 [info] 
+
+
+
+
+2024-08-02 09:10:39.539 [info] Extension host agent started.
+2024-08-02 09:10:39.615 [info] [<unknown>][8566fd19][ManagementConnection] New connection established.
+2024-08-02 09:10:39.626 [info] [<unknown>][69f256a9][ExtensionHostConnection] New connection established.
+2024-08-02 09:10:39.693 [info] [<unknown>][69f256a9][ExtensionHostConnection] <6240> Launched Extension Host Process.
+2024-08-02 09:10:59.526 [info] [<unknown>][0ae98f30][ManagementConnection] New connection established.
+2024-08-02 09:10:59.541 [info] [<unknown>][97da255c][ExtensionHostConnection] New connection established.
+2024-08-02 09:10:59.545 [info] [<unknown>][97da255c][ExtensionHostConnection] <6378> Launched Extension Host Process.
+2024-08-02 09:11:27.303 [info] [<unknown>][8566fd19][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-02 09:15:39.540 [info] New EH opened, aborting shutdown
+2024-08-02 09:15:39.541 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/server/node/server.main.js:192:6383)
+    at process.emit (node:events:518:28)
+2024-08-02 09:15:59.626 [info] [<unknown>][69f256a9][ExtensionHostConnection] <6240> Extension Host Process exited with code: 0, signal: null.
+2024-08-02 12:11:37.247 [info] [<unknown>][8566fd19][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-08-02 16:03:45.670 [info] [<unknown>][0ae98f30][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-02 19:03:27.830 [info] [<unknown>][97da255c][ExtensionHostConnection] <6378> Extension Host Process exited with code: 0, signal: null.
+2024-08-02 19:03:27.831 [info] Last EH closed, waiting before shutting down
+2024-08-02 19:03:55.924 [info] [<unknown>][0ae98f30][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-08-02 19:08:27.833 [info] Last EH closed, shutting down
